@@ -45,9 +45,7 @@ public class Main {
                }
            }
        }
-
-
-   public static void serData(){
+    public static void serData(){
        try {
            FileOutputStream fOS = new FileOutputStream(file+".ser");
            ObjectOutputStream oOS= new ObjectOutputStream(fOS);
