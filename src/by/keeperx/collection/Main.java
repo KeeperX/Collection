@@ -40,6 +40,7 @@ public class Main {
                profiles=(ArrayList<Profile>) oIS.readObject();
                fIS.close();
                oIS.close();
+
            }catch (Exception e){
                    e.printStackTrace();
                }
