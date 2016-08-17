@@ -27,7 +27,6 @@ public class Main {
         System.out.println(profiles.size());
 
 
-        ;
         //serData();
     }
    public  static  void deserData()  {
